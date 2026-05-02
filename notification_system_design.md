@@ -66,4 +66,44 @@ log 10 ≈ constant
 
 the heap-based approach is highly efficient for real-time systems.
 
-![Top 10 Notifications dsiplyaed in the console](image.png)
+# Stage 2 – Notification System Frontend Design
+
+## Overview
+
+The Stage 2 implementation focuses on building a responsive frontend application using React, TypeScript, Vite, and Material UI. The application consumes the provided Notification API and displays notifications in a user-friendly interface with filtering, priority handling, and viewed-state management.
+
+The frontend was designed with modularity, responsiveness, and maintainability in mind.
+
+---
+
+# Technologies Used
+
+- React
+- TypeScript
+- Vite
+- Material UI (MUI)
+- Axios
+- React Router DOM
+
+---
+
+# Project Structure
+
+```text
+src/
+│
+├── components/
+│   └── NotificationCard.tsx
+│
+├── pages/
+│   ├── AllNotifications.tsx
+│   └── PriorityNotifications.tsx
+│
+├── services/
+│   └── notificationService.ts
+│
+├── utils/
+│   └── topNotifications.ts
+│
+├── App.tsx
+└── main.tsx
